@@ -131,6 +131,14 @@ reladiff \
   -k event_id \
 ```
 
+#### "Real-world" example: Diff "events" table between Postgres and SAP IQ
+
+```
+reladiff \
+  postgresql:///  events "sapiq://user:pass@host:2638/mydatabase"   events \
+  -k event_id \
+```
+
 ### Technical Explanation
 
 This [technical explanation](https://reladiff.readthedocs.io/en/latest/technical-explanation.html) provides a quick overview of how our cross-database diffing works.
