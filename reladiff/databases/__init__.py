@@ -13,5 +13,6 @@ from .clickhouse import Clickhouse
 from .vertica import Vertica
 from .duckdb import DuckDB
 from .impala import Impala
+from .sap_iq import SapIQ
 
 from ._connect import connect
