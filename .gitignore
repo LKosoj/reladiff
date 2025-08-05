@@ -144,3 +144,4 @@ benchmark_*.png
 
 # VSCode
 .vscode
+/.specstory

@@ -12,5 +12,6 @@ from .trino import Trino
 from .clickhouse import Clickhouse
 from .vertica import Vertica
 from .duckdb import DuckDB
+from .impala import Impala
 
 from ._connect import connect
